@@ -1,3 +1,3 @@
 # vencord-fix-pnpm
-***
-test
+## Użycie:
+asd
