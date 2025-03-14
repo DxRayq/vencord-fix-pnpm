@@ -15,12 +15,3 @@ if ($currentPolicy -eq 'Restricted') {
 } else {
     Write-Host "The current script execution policies are already set at a level that allows running scripts. No change is needed."
 }
-
-# Running the pnpm inject Command
-try {
-    Write-Host "Running the 'pnpm inject' command..."
-    pnpm inject
-    Write-Host "The 'pnpm inject' command has been executed successfully."
-} catch {
-    Write-Host "An error occurred while running the 'pnpm inject' command."
-}
