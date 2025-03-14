@@ -1,5 +1,5 @@
 # vencord-fix-pnpm
-## Błąd:
+## Error:
 ```
 pnpm : File C:\Users\dxray\AppData\Roaming\npm\pnpm.ps1 cannot be loaded because running scripts is disabled on this sy
 stem. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
@@ -9,9 +9,9 @@ At line:1 char:1
     + CategoryInfo          : SecurityError: (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
-## Użycie:
-1. Odpal wiersz poleceń i wpisz: `cd C:\Users\user\OneDrive\Dokumenty\Vencord\src\userplugins` W moim wypadku jest to ścieżka konta online w Microsoft bo zawiera `OneDrive`, ale ścieżka jest podobna również w koncie offline. Przypominam że `user` należy podmienić pod waszą nazwę użytkownika na komputerze.
-2. Skopiuj plik: `fix_pnpm.ps1` do `cd C:\Users\user\OneDrive\Dokumenty\Vencord\src\userplugins`.
-3. Uruchom powershella w powyższej ścieżce (`cd C:\Users\user\OneDrive\Dokumenty\Vencord\src\userplugins`)
-4. Wpisz: `.\fix_pnpm.ps1`.
-5. Błąd powinien zniknąć i gotowe!
+## Uusage:
+1. Open the command prompt and type: `cd C:\Users\user\OneDrive\Documents\Vencord\src\userplugins`. In my case, this is the path for an online Microsoft account because it contains `OneDrive`, but the path is similar for offline accounts as well. Remember to replace `user` with your computer's username.
+2. Copy the file: `fix_pnpm.ps1` to `C:\Users\user\OneDrive\Documents\Vencord\src\userplugins`.
+3. Run PowerShell in the above path (`C:\Users\user\OneDrive\Documents\Vencord\src\userplugins`).
+4. Type: `.\fix_pnpm.ps1`.
+5. The error should disappear, and you're done!
